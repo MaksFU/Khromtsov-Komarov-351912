@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".start.RegistrationFragment">
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/registration"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titleText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/for_boss"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainTitle" />
+
+    <TextView
+        android:id="@+id/tNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/t_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toStartOf="@+id/mailTxt1"
+        app:layout_constraintTop_toBottomOf="@+id/fNameTxt" />
+
+    <EditText
+        android:id="@+id/tNameInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="@string/h_t_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintBottom_toBottomOf="@+id/tNameTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tNameTxt"
+        app:layout_constraintTop_toTopOf="@+id/tNameTxt" />
+
+    <EditText
+        android:id="@+id/sNameInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="@string/h_s_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintBottom_toBottomOf="@+id/sNameTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tNameInput"
+        app:layout_constraintTop_toTopOf="@+id/sNameTxt" />
+
+    <TextView
+        android:id="@+id/sNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/s_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toStartOf="@+id/mailTxt1"
+        app:layout_constraintTop_toBottomOf="@+id/subTitle" />
+
+    <EditText
+        android:id="@+id/fNameInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="@string/h_f_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintBottom_toBottomOf="@+id/fNameTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tNameInput"
+        app:layout_constraintTop_toTopOf="@+id/fNameTxt" />
+
+    <TextView
+        android:id="@+id/fNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/f_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toStartOf="@+id/mailTxt1"
+        app:layout_constraintTop_toBottomOf="@+id/sNameTxt" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="@string/h_pass"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintBottom_toBottomOf="@+id/passwordTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tNameInput"
+        app:layout_constraintTop_toTopOf="@+id/passwordTxt" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        app:constraint_referenced_ids="buttonBack,space, buttonReg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/space"
+        android:layout_width="30dp"
+        android:layout_height="0dp"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="0dp"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/button_text_color"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="@string/back" />
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ahead"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/button_text_color"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/mailTxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/mail"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintBottom_toTopOf="@+id/flow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTxt"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/mailInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="someEmail@mail.ru"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintBottom_toBottomOf="@+id/mailTxt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tNameInput"
+        app:layout_constraintTop_toTopOf="@+id/mailTxt1" />
+
+    <TextView
+        android:id="@+id/passwordTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/pass"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toStartOf="@+id/mailTxt1"
+        app:layout_constraintTop_toBottomOf="@+id/tNameTxt" />
+</androidx.constraintlayout.widget.ConstraintLayout>

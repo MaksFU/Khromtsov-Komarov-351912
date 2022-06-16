@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second"
+    app:startDestination="@id/secondF2">
+
+    <fragment
+        android:id="@+id/secondF2"
+        android:name="com.example.testdb.secondScreen.SecondF"
+        android:label="fragment_second_f"
+        tools:layout="@layout/fragment_second_f" >
+        <action
+            android:id="@+id/action_secondF2_to_addCategory2"
+            app:destination="@id/addCategory2" />
+        <action
+            android:id="@+id/action_secondF2_to_incomeAndCost"
+            app:destination="@id/incomeAndCost" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCategory2"
+        android:name="com.example.testdb.secondScreen.AddCategory"
+        android:label="fragment_add_category"
+        tools:layout="@layout/fragment_add_category" >
+        <argument
+            android:name="size"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/incomeAndCost"
+        android:name="com.example.testdb.secondScreen.IncomeAndCost"
+        android:label="fragment_income_or_cost"
+        tools:layout="@layout/fragment_income_or_cost" >
+        <argument
+            android:name="incomeOrCost"
+            app:argType="string" />
+        <argument
+            android:name="catName"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

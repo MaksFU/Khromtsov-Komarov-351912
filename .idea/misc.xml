@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24351851851851852" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/drawable/circl.xml" value="0.1625" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/drawable/ic_add.xml" value="0.14375" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/drawable/ic_change.xml" value="0.2078125" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/drawable/ic_cite.xml" value="0.2078125" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/drawable/ic_date.xml" value="0.2078125" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/drawable/ic_down.xml" value="0.24351851851851852" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/drawable/ic_graph.xml" value="0.2078125" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24351851851851852" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/drawable/ic_more.xml" value="0.24351851851851852" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/drawable/ic_up.xml" value="0.24351851851851852" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/drawable/selector_b_n_v.xml" value="0.14375" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/activity_add_category.xml" value="0.14479166666666668" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/activity_main.xml" value="0.14479166666666668" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_InfoCostOrInc.xml" value="0.14791666666666667" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_Periods.xml" value="0.1671875" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_add_category.xml" value="0.2" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_add_worker.xml" value="0.264" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_authorization.xml" value="0.2" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_developer_info.xml" value="0.264" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_exact_day.xml" value="0.176" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_first_f.xml" value="0.14479166666666668" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_fragment1in2.xml" value="0.176" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_fragment1in4.xml" value="0.1490036231884058" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_fragment2in2.xml" value="0.14479166666666668" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_income_or_cost.xml" value="0.2" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_info_cost_or_inc.xml" value="0.21557971014492755" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_info_details.xml" value="0.2" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_periods.xml" value="0.16458333333333333" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_registration.xml" value="0.2" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_second_f.xml" value="0.14479166666666668" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_start.xml" value="0.264" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_third_f.xml" value="0.16458333333333333" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_worker_data.xml" value="0.264" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_worker_details.xml" value="0.264" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/fragment_workers.xml" value="0.21557971014492755" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/item_category.xml" value="0.17864583333333334" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/item_info.xml" value="0.4" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/item_worker.xml" value="0.264" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/p.xml" value="0.2" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/simple_spener_item.xml" value="0.16576086956521738" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/simple_spinner_dropdown_item.xml" value="0.1" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/simple_spinner_item.xml" value="0.1" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/simsasa.xml" value="0.16576086956521738" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/layout/test.xml" value="0.12360688956433637" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB()/app/src/main/res/menu/bottom_menu.xml" value="0.19322916666666667" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB(0.7)/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB(0.7)/app/src/main/res/layout/fragment_fragment2in2.xml" value="0.1" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB(0.7)/app/src/main/res/layout/fragment_second_f.xml" value="0.1766304347826087" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB(0.7)/app/src/main/res/layout/fragment_start.xml" value="0.1296875" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB(0.7)/app/src/main/res/menu/bottom_menu.xml" value="0.1765625" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB/app/src/main/res/layout/fragment_second_f.xml" value="0.14791666666666667" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB/app/src/main/res/layout/item_category.xml" value="0.14791666666666667" />
+        <entry key="..\:/As projects/KYRSOVAIA/TestDB/app/src/main/res/layout/item_worker.xml" value="0.14791666666666667" />
+        <entry key="..\:/As projects/TestDB/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/As projects/TestDB/app/src/main/res/layout/fragment_add_worker.xml" value="0.264" />
+        <entry key="..\:/As projects/TestDB/app/src/main/res/layout/fragment_fragment1in2.xml" value="0.15885416666666666" />
+        <entry key="..\:/As projects/TestDB/app/src/main/res/layout/fragment_fragment2in2.xml" value="0.15885416666666666" />
+        <entry key="..\:/As projects/TestDB/app/src/main/res/layout/fragment_start.xml" value="0.19791666666666666" />
+        <entry key="..\:/As projects/TestDB/app/src/main/res/layout/item_worker.xml" value="0.13020833333333334" />
+        <entry key="..\:/As projects/TestDB/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MaksimKhromtsov/AndroidStudioProjects/TestDB/app/src/main/res/layout/activity_main.xml" value="0.1375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

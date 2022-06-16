@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondScreen.IncomeAndCost">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/ur_income"
+        android:textColor="@color/green"
+        android:textSize="@dimen/titleText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/chosenCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/ch_cat"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toStartOf="@+id/enterValue"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+
+    <TextView
+        android:id="@+id/chosenCatV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cat"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toStartOf="@+id/enterValue"
+        app:layout_constraintTop_toBottomOf="@+id/chosenCat" />
+
+    <TextView
+        android:id="@+id/dateTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/date"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toStartOf="@+id/enterValue"
+        app:layout_constraintTop_toBottomOf="@+id/chosenCatV" />
+
+
+    <ImageView
+        android:id="@+id/dateImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/ic_date"
+        app:layout_constraintBottom_toBottomOf="@+id/dateTxt"
+        app:layout_constraintStart_toEndOf="@+id/chosenDate"
+        app:layout_constraintTop_toTopOf="@+id/dateTxt" />
+
+    <TextView
+        android:id="@+id/chosenDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="56.76.43"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintBottom_toBottomOf="@+id/dateTxt"
+        app:layout_constraintStart_toEndOf="@+id/dateTxt"
+        app:layout_constraintTop_toTopOf="@+id/dateTxt" />
+
+
+    <TextView
+        android:id="@+id/curCostOrIncInCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/cur_val"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toStartOf="@+id/enterValue"
+        app:layout_constraintTop_toBottomOf="@+id/dateTxt" />
+
+    <TextView
+        android:id="@+id/curCostOrIncInCatV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toStartOf="@+id/curCostOrIncInCat"
+        app:layout_constraintTop_toBottomOf="@+id/curCostOrIncInCat" />
+
+    <EditText
+        android:id="@+id/enterValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:ems="10"
+        android:hint="@string/h_new_cost_or_inc"
+        android:inputType="number"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newCostOrInc" />
+
+
+    <TextView
+        android:id="@+id/newCostOrInc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/new_cost_or_inc"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toStartOf="@+id/enterValue"
+        app:layout_constraintTop_toBottomOf="@+id/rub" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        app:constraint_referenced_ids="buttonBack,space, buttonApply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" >
+    </androidx.constraintlayout.helper.widget.Flow>
+
+    <Button
+        android:id="@+id/buttonApply"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/button_text_color"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/space"
+        android:layout_width="30dp"
+        android:layout_height="0dp"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/button_text_color"
+        android:text="@string/back" />
+
+    <TextView
+        android:id="@+id/noteTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/note"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toStartOf="@+id/enterValue"
+        app:layout_constraintTop_toBottomOf="@+id/enterValue" />
+
+    <TextView
+        android:id="@+id/rub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rub"
+        android:textColor="@color/black"
+        android:textSize="@dimen/usualText"
+        app:layout_constraintStart_toEndOf="@+id/curCostOrIncInCatV"
+        app:layout_constraintTop_toTopOf="@+id/curCostOrIncInCatV" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noteTxt">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/noteValue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:saveEnabled="true"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/usualText" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

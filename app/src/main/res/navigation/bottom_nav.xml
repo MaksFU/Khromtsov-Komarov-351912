@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+app:startDestination="@id/startFragment4">
+
+<include app:graph="@navigation/first_nav"/>
+<include app:graph="@navigation/second_nav"/>
+<include app:graph="@navigation/third_nav"/>
+    <fragment
+        android:id="@+id/startFragment4"
+        android:name="com.example.testdb.start.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start">
+        <action
+            android:id="@+id/action_about3_to_second"
+            app:destination="@id/second"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/second"
+            app:popUpToInclusive="false"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@anim/slade_in_right"
+            app:popExitAnim="@anim/slide_out_left"/>
+        <action
+            android:id="@+id/action_startFragment4_to_registrationFragment"
+            app:destination="@id/registrationFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@anim/slade_in_right"
+            app:popExitAnim="@anim/slide_out_left"/>
+        <action
+            android:id="@+id/action_startFragment4_to_developerInfoFragment"
+            app:destination="@id/developerInfoFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@anim/slade_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_startFragment4_to_authorizationFragment"
+            app:destination="@id/authorizationFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@anim/slade_in_right"
+            app:popExitAnim="@anim/slide_out_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.testdb.start.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_second"
+            app:destination="@id/second"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/second"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/developerInfoFragment"
+        android:name="com.example.testdb.start.DeveloperInfoFragment"
+        android:label="fragment_developer_info"
+        tools:layout="@layout/fragment_developer_info" />
+    <fragment
+        android:id="@+id/authorizationFragment"
+        android:name="com.example.testdb.start.AuthorizationFragment"
+        android:label="fragment_authorization"
+        tools:layout="@layout/fragment_authorization" >
+        <action
+            android:id="@+id/action_authorizationFragment_to_second2"
+            app:destination="@id/second"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/second"
+            app:popUpToInclusive="true"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"/>
+    </fragment>
+
+</navigation>
+
+
+
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<navigation-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:id="@+id/nav_graph"-->
+<!--app:startDestination="@id/startFragment4">-->
+
+<!--<include app:graph="@navigation/first_nav"/>-->
+<!--<include app:graph="@navigation/second_nav"/>-->
+<!--<include app:graph="@navigation/third_nav"/>-->
+<!--<fragment-->
+<!--    android:id="@+id/startFragment4"-->
+<!--    android:name="com.example.testdb.start.StartFragment"-->
+<!--    android:label="fragment_start"-->
+<!--    tools:layout="@layout/fragment_start">-->
+<!--    <action-->
+<!--        android:id="@+id/action_about3_to_second"-->
+<!--        app:destination="@id/second"-->
+<!--        app:launchSingleTop="true"-->
+<!--        app:popUpTo="@id/second" />-->
+<!--    <action-->
+<!--        android:id="@+id/action_startFragment4_to_registrationFragment"-->
+<!--        app:destination="@id/registrationFragment" />-->
+<!--    <action-->
+<!--        android:id="@+id/action_startFragment4_to_developerInfoFragment"-->
+<!--        app:destination="@id/developerInfoFragment" />-->
+<!--    <action-->
+<!--        android:id="@+id/action_startFragment4_to_authorizationFragment"-->
+<!--        app:destination="@id/authorizationFragment"-->
+<!--        app:launchSingleTop="false"-->
+<!--        app:popUpToInclusive="false" />-->
+<!--</fragment>-->
+<!--<fragment-->
+<!--    android:id="@+id/registrationFragment"-->
+<!--    android:name="com.example.testdb.start.RegistrationFragment"-->
+<!--    android:label="fragment_registration"-->
+<!--    tools:layout="@layout/fragment_registration" >-->
+<!--    <action-->
+<!--        android:id="@+id/action_registrationFragment_to_second"-->
+<!--        app:destination="@id/second"-->
+<!--        app:launchSingleTop="true"-->
+<!--        app:popUpTo="@id/second" />-->
+<!--</fragment>-->
+<!--<fragment-->
+<!--    android:id="@+id/developerInfoFragment"-->
+<!--    android:name="com.example.testdb.start.DeveloperInfoFragment"-->
+<!--    android:label="fragment_developer_info"-->
+<!--    tools:layout="@layout/fragment_developer_info" />-->
+<!--<fragment-->
+<!--    android:id="@+id/authorizationFragment"-->
+<!--    android:name="com.example.testdb.start.AuthorizationFragment"-->
+<!--    android:label="fragment_authorization"-->
+<!--    tools:layout="@layout/fragment_authorization" >-->
+<!--    <action-->
+<!--        android:id="@+id/action_authorizationFragment_to_second2"-->
+<!--        app:destination="@id/second"-->
+<!--        app:popUpTo="@id/second"-->
+<!--        app:popUpToInclusive="false" />-->
+<!--</fragment>-->
+
+<!--</navigation>-->

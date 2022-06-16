@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/first"
+    app:startDestination="@id/firstF2">
+
+    <fragment
+        android:id="@+id/firstF2"
+        android:name="com.example.testdb.firstScreen.FirstF"
+        android:label="fragment_first_f"
+        tools:layout="@layout/fragment_first_f" >
+        <action
+            android:id="@+id/action_firstF2_to_addWorker2"
+            app:destination="@id/addWorker2" />
+        <action
+            android:id="@+id/action_firstF2_to_workerDetails"
+            app:destination="@id/workerDetails"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@anim/slade_in_right"
+            app:popExitAnim="@anim/slide_out_left"/>
+        <action
+            android:id="@+id/action_firstF2_to_infoDetails"
+            app:destination="@id/infoDetails"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@anim/slade_in_right"
+            app:popExitAnim="@anim/slide_out_left"/>
+        <action
+            android:id="@+id/action_firstF2_to_workerData"
+            app:destination="@id/workerData"
+            app:enterAnim="@anim/slade_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/addWorker2"
+        android:name="com.example.testdb.firstScreen.secondSubScreen.AddWorker"
+        android:label="fragment_add_worker"
+        tools:layout="@layout/fragment_add_worker" >
+        <argument
+            android:name="size"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/workerDetails"
+        android:name="com.example.testdb.firstScreen.secondSubScreen.WorkerDetails"
+        android:label="fragment_worker_details"
+        tools:layout="@layout/fragment_worker_details" >
+        <argument
+            android:name="workerId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoDetails"
+        android:name="com.example.testdb.firstScreen.firstSubScreen.InfoDetails"
+        android:label="fragment_info_details"
+        tools:layout="@layout/fragment_info_details" >
+        <argument
+            android:name="info"
+            app:argType="com.example.testdb.modelsDb.InfoDb" />
+    </fragment>
+    <fragment
+        android:id="@+id/workerData"
+        android:name="com.example.testdb.firstScreen.secondSubScreen.WorkerData"
+        android:label="fragment_worker_data"
+        tools:layout="@layout/fragment_worker_data" >
+        <argument
+            android:name="workerInf"
+            app:argType="com.example.testdb.modelsDb.WorkerDb" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoCostOrInc"
+        android:name="com.example.testdb.firstScreen.firstSubScreen.InfoCostOrInc"
+        android:label="fragment_info_cost_or_inc"
+        tools:layout="@layout/fragment_info_cost_or_inc" />
+    <fragment
+        android:id="@+id/workers"
+        android:name="com.example.testdb.firstScreen.secondSubScreen.Workers"
+        android:label="fragment_workers"
+        tools:layout="@layout/fragment_workers" />
+</navigation>

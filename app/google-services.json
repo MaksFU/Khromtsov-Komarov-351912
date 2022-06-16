@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "114248651955",
+    "firebase_url": "https://testsamsung-b11d0-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "testsamsung-b11d0",
+    "storage_bucket": "testsamsung-b11d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114248651955:android:242ef7e48f57b2ed3a4cc6",
+        "android_client_info": {
+          "package_name": "com.example.testdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114248651955-cfhlqr19kr9g7g75h20133amf8o0hmet.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testdb",
+            "certificate_hash": "aa140da7d78e3c30f463b8a56be272b5c2616fb9"
+          }
+        },
+        {
+          "client_id": "114248651955-4631flmf0ti975cq0kerusm8n0bh99a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9tY0ei3FlKxcaMbBjr4qXRYwNxs5SkW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114248651955-4631flmf0ti975cq0kerusm8n0bh99a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

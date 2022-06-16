@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="green">#30D337</color>
+    <color name="red">#E62D2D</color>
+
+    <color name="d_color_1">#2ecc71</color>
+    <color name="d_color_2">#f1c40f</color>
+    <color name="d_color_3">#e74c3c</color>
+    <color name="d_color_4">#3498db</color>
+
+    <color name="d_color_5">#c0ff8c</color>
+    <color name="d_color_6">#fff78c</color>
+    <color name="d_color_7">#ffd08c</color>
+    <color name="d_color_8">#8ceaff</color>
+    <color name="d_color_9">#ff8c9d</color>
+    <color name="d_color_10">#d78cff</color>
+
+    <array name="d_colors">
+        <item>@color/d_color_1</item>
+        <item>@color/d_color_2</item>
+        <item>@color/d_color_3</item>
+        <item>@color/d_color_4</item>
+        <item>@color/d_color_5</item>
+        <item>@color/d_color_6</item>
+        <item>@color/d_color_7</item>
+        <item>@color/d_color_8</item>
+        <item>@color/d_color_9</item>
+        <item>@color/d_color_10</item>
+    </array>
+
+    //FDDB6D
+    <color name="flow_button_color">#F8D568</color>
+    <color name="button_color">#F8D568</color>
+    <color name="button_text_color">#FF000000</color>
+
+</resources>

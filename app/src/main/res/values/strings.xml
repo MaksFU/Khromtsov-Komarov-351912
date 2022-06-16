@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Финансовый контроль</string>
+    <string name="graphic">График</string>
+    <string name="add">Дабавить</string>
+    <string name="info">Сводка</string>
+    <string name="sum">Сумма:\u0020</string>
+    <string name="position">Должность:\u0020</string>
+    <string name="admin_rules">Права администратора</string>
+    <string name="mail">Почта:\u0020</string>
+    <string name="firstPass">Исходный пароль:\u0020</string>
+    <string name="accept">Применить</string>
+    <string name="back">Назад</string>
+    <string name="for_boss">(для руководителя)</string>
+    <string name="registrate">Зарегистрироваться</string>
+    <string name="authorize">Авторизироваться</string>
+    <string name="registration">Регистрация</string>
+    <string name="t_name">Отчество:</string>
+    <string name="h_t_name">Васильевич</string>
+    <string name="h_s_name">Петров</string>
+    <string name="s_name">Фамилия:</string>
+    <string name="h_f_name">Василий</string>
+    <string name="f_name">Имя:</string>
+    <string name="h_pass">123456Wq</string>
+    <string name="apply">Подтвердить</string>
+    <string name="pass">Пароль:</string>
+    <string name="cat">Категория:\u0020</string>
+    <string name="rub">\u0020руб.</string>
+    <string name="note">Пометка:\u0020</string>
+    <string name="ur_income">Ваш доход</string>
+    <string name="ch_cat">Выбранная категория:</string>
+    <string name="date">Дата:</string>
+    <string name="cur_val">Текущее значение:</string>
+    <string name="h_new_cost_or_inc">Пример: 150</string>
+    <string name="cancel">Отмена</string>
+    <string name="new_cost_or_inc">Новый доход:</string>
+    <string name="developers">О программе</string>
+    <string name="developers_info">Работу выполнили ученики 3 курса высшей школы информационных технологий и автоматизированных систем:\n\nХромцов Максим Алексеевич\nКомаров Максим Аедреевич</string>
+    <string name="authorization">Авторизация</string>
+    <string name="h_mail">someMail@mail.ru</string>
+    <string name="ahead">Далее</string>
+    <string name="h_position">Секретарь</string>
+    <string name="new_worker">Новый работник</string>
+    <string name="h_cat">Канцелярия</string>
+    <string name="new_cat">Новая категория</string>
+    <string name="cur_cat">Текущие категории:</string>
+    <string name="naming">Наименование:</string>
+
+    <string-array name="categories">
+        <item>Еда</item>
+        <item>Девушка</item>
+        <item>Собака</item>
+        <item>Алкоголь</item>
+        <item>Одежда</item>
+    </string-array>
+
+    <string-array name="periods">
+        <item>Конкретный день</item>
+        <item>Неделя</item>
+        <item>Месяц</item>
+        <item>Год</item>
+    </string-array>
+
+    <string-array name="cites">
+        <item>Не работодатель выдает зарплату, работодатель только распределяет деньги. Зарплату выдает клиент.</item>
+        <item>Полная независимость возможна только при экономической независимости.</item>
+        <item>Запомните: рынок акций безумен.</item>
+        <item>«Нормальное состояние экономики» существует только в экономических учебниках.</item>
+    </string-array>
+
+    <string-array name="authors">
+        <item>Джером Дэвид Сэлинджер</item>
+        <item>Мустафа Кемаль Ататюрк</item>
+        <item>Уоррен Баффет</item>
+        <item>Джоан Вайолет Робинсон</item>
+    </string-array>
+</resources>

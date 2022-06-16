@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/third"
+    app:startDestination="@id/thirdF">
+
+    <fragment
+        android:id="@+id/thirdF"
+        android:name="com.example.testdb.thirdScreen.ThirdF"
+        android:label="fragment_third_f"
+        tools:layout="@layout/fragment_third_f" />
+    <fragment
+        android:id="@+id/periods"
+        android:name="com.example.testdb.thirdScreen.Periods"
+        android:label="fragment_periods"
+        tools:layout="@layout/fragment_periods" />
+</navigation>
